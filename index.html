@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+    }
+</style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="heading"><h3>Student Portal</h3></div>
+    <div class="container">
+        <div id="search-container">
+            <input type="search" id="search" placeholder="Search">
+            <input type="button" value="Search" id="search-btn">
+        </div>
+        <div id="sort-container">
+            <button id="asc-name">
+                Sort A-Z
+            </button>
+            <button id="des-name">
+                Sort Z-A
+            </button>
+            <button id="marks">
+                Sort By Marks
+            </button>
+            <button id="passing">
+                Sort By Passing
+            </button>
+            <button id="class">
+                Sort By Class
+    
+            </button>
+            <button id="gender">
+                Sort By Gender
+            </button>
+        </div>
+        <div id="table-container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Gender</td>
+                        <td>Class</td>
+                        <td>Marks</td>
+                        <td>Passing</td>
+                        <td>Email</td>
+                    </tr>
+                   
+                </thead>
+                <tbody id="table-body">
+                   <tr id="row">
+                    <td>1</td>
+                    <td id="name-container">
+                        <div id="details">
+                            <img src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1" alt="">
+                            <span>Minhaj</span>
+                        </div>
+                    </td>
+                    <td>Male</td>
+                    <td>10</td>
+                    <td>45</td>
+                    <td>Passed</td>
+                    <td>min@123</td>
+                   </tr>
+
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <table id="table2">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Gender</td>
+                        <td>Class</td>
+                        <td>Marks</td>
+                        <td>Passing</td>
+                        <td>Email</td>
+                    </tr>
+                   
+                </thead>
+                <tbody id="table-body2">
+                   <tr id="row2">
+                    <td>1</td>
+                    <td id="name-container2">
+                        <div id="details2">
+                            <img src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1" alt="">
+                            <span>Minhaj</span>
+                        </div>
+                    </td>
+                    <td>Male</td>
+                    <td>10</td>
+                    <td>45</td>
+                    <td>Passed</td>
+                    <td>min@123</td>
+                   </tr>
+                   
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+
+            
+        </div>
+    </div>
+    </main>
+    
+
+<script src="./script.js"></script>
+</body>
+
+</html>
